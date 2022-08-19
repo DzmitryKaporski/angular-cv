@@ -1,4 +1,4 @@
-# Cv
+# deploy: [angular-cv](https://sv-dima.kaporski.surge.sh)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
