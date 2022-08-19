@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.47);
+
+  @media (max-width: 1200px) {
+    & {
+      width: 98%;
+    }
+  }
+
+  @media (max-width: 888px) {
+    & {
+      padding-top: 60px;
+      width: 435px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 470px) {
+    & {
+      width: 350px;
+    }
+  }
+}

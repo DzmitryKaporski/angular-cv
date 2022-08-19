@@ -1,0 +1,154 @@
+.wrap-aside {
+  width: 410px;
+  padding: 0 2rem 0 0;
+
+  @media (max-width: 470px) {
+    & {
+      width: 300px;
+    }
+  }
+}
+
+.aside__headline {
+  width: 106%;
+  height: 90.5rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.47);
+
+  @media (max-width: 1200px) {
+    & {
+      height: 121.8rem;
+    }
+  }
+
+  @media (max-width: 888px) {
+    & {
+      height: auto;
+    }
+  }
+
+  @media (max-width: 470px) {
+    & {
+      width: 350px;
+    }
+  }
+}
+
+.aside__list-contacts {
+  list-style-type: none;
+  padding: 10px 40px 0 40px;
+
+  .list-item_contact {
+    font-size: 20px;
+    font-weight: bold;
+
+    @media (max-width: 470px) {
+      & {
+        font-size: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 470px) {
+    & {
+      padding: 0 20px 0 50px;
+    }
+  }
+}
+
+.aside__list-skills {
+  list-style-type: none;
+  padding: 0 50px 10px 50px;
+}
+
+.list-item__skill {
+  margin: 25px 0 25px 0;
+
+  .fa-git,
+  .fa-react,
+  .fa-node-js {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.list-item__skill-title {
+  font-weight: bold;
+  font-size: 20px;
+
+  @media (max-width: 470px) {
+    & {
+      font-size: 17px;
+    }
+  }
+}
+
+.fa-viber,
+.fa-react {
+  color: purple;
+}
+
+.fa-telegram,
+.fa-css3-alt,
+.fa-cube {
+  color: rgb(104, 104, 178);
+}
+
+.fa-angular,
+.fa-html5 {
+  color: red
+}
+
+.fa-node-js {
+  color: rgb(204, 204, 78);
+}
+
+.fa-node,
+.fa-exchange-alt {
+  color: green;
+}
+
+.aside__language {
+  padding: 5px 0 10px 0;
+}
+
+.gradient-progressbar progress {
+  appearance: none;
+  border: none;
+  background: #eee;
+  width: 100%;
+  height: 10x;
+  border-radius: 9px;
+}
+
+.gradient-progressbar progress::-webkit-progress-bar {
+  background: #eeeeee;
+  border-radius: 9px;
+}
+
+.gradient-progressbar progress::-webkit-progress-value {
+  background: linear-gradient(to bottom,
+      rgb(197, 197, 197) 0%,
+      rgba(220, 220, 220, 0.951) 100%);
+  border-radius: 9px;
+}
+
+.gradient-progressbar progress::-moz-progress-bar {
+  background: linear-gradient(to bottom,
+      rgb(197, 197, 197) 0%,
+      rgba(220, 220, 220, 0.951) 100%);
+  border-radius: 9px;
+}
+
+.list-item {
+  width: 130px;
+  height: 110px;
+  border-radius: 10px;
+  transition: 0.5s;
+
+  &:hover {
+    box-shadow: 0 0 20px rgba(46, 40, 40, 0.89);
+    cursor: pointer;
+  }
+}

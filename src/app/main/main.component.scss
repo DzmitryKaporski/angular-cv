@@ -1,0 +1,136 @@
+.main {
+  width: 104%;
+
+  @media (max-width: 888px) {
+    & {
+      width: 435px;
+    }
+  }
+
+  @media (max-width: 470px) {
+    & {
+      width: 350px;
+    }
+  }
+}
+
+.education,
+.courses,
+.portfolio {
+  margin-bottom: 5px;
+  padding: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 20px 10px rgba(135, 122, 122, 0.469);
+}
+
+.courses-list {
+  list-style-type: none;
+  padding: 10px 50px 0 50px;
+  font-size: 20px;
+}
+
+.title {
+  margin: 18px 0 0 0;
+  padding: 5px 0 5px 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 10px rgb(123 95 95 / 47%);
+  width: auto;
+}
+
+.subtitle {
+  margin: 18px 15px 0 15px;
+  padding: 2px 0 0 5px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.time {
+  margin: 0 0 15px 0;
+}
+
+.section-information__caption {
+  font-weight: bold;
+}
+
+.section-information__content {
+  margin-left: 150px;
+  font-size: 20px;
+}
+
+.text {
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+}
+
+.inner-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-title {
+  margin: 0 0 15px 0;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #25257d;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.section-information__content-item {
+  width: 80%;
+  text-align: center;
+  background: rgba(125, 125, 207, 0.095);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 255, 0.404);
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.about {
+  padding: 16px;
+  font-size: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 20px 10px rgba(135, 122, 122, 0.469);
+}
+
+.portfolio__list {
+  display: inline-block;
+  list-style-type: none;
+
+  .list-item {
+    width: 130px;
+    height: 110px;
+    box-shadow: 0 0 5px rgba(46, 40, 40, 0.89);
+    border-radius: 10px;
+    transition: 0.5s;
+
+    &:hover {
+      box-shadow: 0 0 20px rgba(46, 40, 40, 0.89);
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 888px) {
+    & {
+      margin-left: 10px;
+    }
+  }
+
+  @media (max-width: 470px) {
+    & {
+      margin-left: 0;
+      width: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

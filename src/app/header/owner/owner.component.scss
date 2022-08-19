@@ -1,0 +1,22 @@
+.wrap-owner {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  @media (max-width: 888px) {
+    & {
+      font-size: 23px;
+    }
+  }
+
+  @media (max-width: 470px) {
+    & {
+      font-size: 18px;
+      margin: 0 40px 10px 40px;
+    }
+  }
+}

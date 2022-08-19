@@ -1,0 +1,75 @@
+<main class="main">
+  <article>
+    <section class="education">
+      <h2 class="title"> <i class="fas fa-graduation-cap"></i> EDUCATION </h2>
+
+      <ul *ngFor="let item of educationList" class="courses-list">
+        <li class="text">
+          <div class="time">{{item.year}}</div>
+          <a *ngIf="item.link" href={{item.link}} title="link">
+            <span class="link"><i>{{item.name}}</i></span>
+          </a>
+          <span *ngIf="!item.link"><i>{{item.name}}</i></span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="courses">
+      <h2 class="title"> <i class="fas fa-user-graduate"></i> COURSES </h2>
+
+      <ul *ngFor="let course of coursesList" class="courses-list">
+        <li class="text">
+          <div class="time">{{course.year}}</div>
+          <a *ngIf="course.link" href={{course.link}} title="link">
+            <span class="link"><i>{{course.name}}</i></span>
+          </a>
+          <span *ngIf="!course.link"><i>{{course.name}}</i></span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="portfolio">
+      <div>
+        <h2 class="title"> <i class="fas fa-tablet-alt"></i> WEB APPLICATIONS VIEW </h2>
+      </div>
+
+      <div class="subtitle">
+        <i>Have an experience in building simple web applications. To
+          watch code examples feel free to visit my:</i>
+        <a href="https://github.com/DzmitryKaporski">
+          <span class="link-github"><i> GitHub</i></span>
+        </a>
+      </div>
+      <ul *ngFor="let link of linksList" class="portfolio__list">
+        <li>
+          <a href={{link.href}} title="follow the link">
+            <div class="inner-wrap">
+              <span class="link-title">{{link.title}}</span>
+              <img class="list-item" src={{link.src}} alt="img" />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about">
+      <h2 class="title">
+        <i class="fas fa-user-shield"></i> ABOUT - ME
+      </h2>
+      <div class="text">
+        <p>
+          <i>
+            Web page development on HTML5 markup language using
+            cascading CSS stylesheets. Development of client-side
+            scripting with JavaScript using frameworks React and
+            Angular.
+            <br />
+            I feel a passion for the world of IT technologies and
+            would like to connect my future with it activities to
+            create values for the people in the IT.
+          </i>
+        </p>
+      </div>
+    </section>
+  </article>
+</main>

@@ -1,0 +1,8 @@
+<footer class="footer">
+  <div class="footer-date">{{date|date: 'd MMMM y'}}</div>
+  <div>
+    <ul *ngFor="let social of socialsList" class="socials-list">
+      <li><a href={{social.link}} title="social network"><i class={{social.icon}}></i></a></li>
+    </ul>
+  </div>
+</footer>
