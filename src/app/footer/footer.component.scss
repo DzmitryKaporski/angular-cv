@@ -28,18 +28,6 @@
   }
 }
 
-.socials-list {
-  display: inline-block;
-  list-style-type: none;
-  font-size: 40px;
-
-  @media (max-width: 888px) {
-    & {
-      margin-right: 40px;
-    }
-  }
-}
-
 .footer-date {
   display: flex;
   justify-content: center;
@@ -50,6 +38,7 @@
 
   @media (max-width: 888px) {
     & {
+      margin-bottom: 20px;
       font-size: 20px;
     }
   }
@@ -63,5 +52,52 @@
   &:hover {
     cursor: pointer;
     color: rgba(56, 54, 54, 0.845);
+  }
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-around;
+
+  @media (max-width: 888px) {
+    & {
+      width: 100%;
+    }
+  }
+}
+
+ul {
+  padding: 0;
+
+  .svg {
+    padding: 20px 50px 20px 40px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.7;
+    transition: 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+
+    @media (max-width: 888px) {
+      & {
+        padding: 20px 10px 20px 0;
+      }
+    }
+  }
+
+  .logo {
+    padding: 30px 0 30px 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.7;
+    transition: 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
   }
 }

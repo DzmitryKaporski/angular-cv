@@ -1,4 +1,6 @@
-export interface Socials {
-  link: string,
-  icon: string,
+export interface Logos {
+  url: string,
+  class: string,
+  src: string,
+  alt: string,
 }

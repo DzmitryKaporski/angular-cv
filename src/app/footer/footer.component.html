@@ -1,8 +1,10 @@
 <footer class="footer">
   <div class="footer-date">{{date|date: 'd MMMM y'}}</div>
-  <div>
-    <ul *ngFor="let social of socialsList" class="socials-list">
-      <li><a href={{social.link}} title="social network"><i class={{social.icon}}></i></a></li>
+  <div class="footer-logos">
+    <ul *ngFor="let logo of logosList">
+      <li>
+        <a href={{logo.url}}> <img class={{logo.class}} src={{logo.src}} alt={{logo.alt}}> </a>
+      </li>
     </ul>
   </div>
 </footer>

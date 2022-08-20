@@ -1,10 +1,10 @@
 import { Courses, Education, Links } from './main.interface';
 
 export const COURSES: Courses[] = [
-  { year: "2020", link: "assets/documents/academy.jpg", name: "STEP IT Academy (Front-end development / React)" },
+  { year: "2020", link: "assets/documents/academy.jpg", name: "STEP IT Academy (Frontend development / React)" },
   { year: "2021", link: "assets/documents/english.jpg", name: "STREAMLINE English (Pre-intermediate)" },
-  { link: "assets/documents/rsschool.jpg", name: "THE ROLLING SCOPES SHCOOL (Front-end development / JavaScript)" },
-  { link: "assets/documents/epam.jpg", name: "EPAM (Front-end development / Angular)" },
+  { link: "assets/documents/rsschool.jpg", name: "THE ROLLING SCOPES SHCOOL (Frontend development / JavaScript)" },
+  { link: "assets/documents/epam.jpg", name: "EPAM (Frontend development / Angular)" },
   { year: "2022", name: "EPAM Learn digital platform (Version Control with Git)" },
 ]
 

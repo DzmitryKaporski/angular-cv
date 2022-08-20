@@ -1,5 +1,5 @@
-import { SOCIALS } from './footer.data';
-import { Socials } from './footer.interface';
+import { LOGOS } from './footer.data';
+import { Logos } from './footer.interface';
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,7 +11,7 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   date = new Date();
-  socialsList: Socials[] = SOCIALS;
+  logosList: Logos[] = LOGOS;
 
   constructor() { }
 

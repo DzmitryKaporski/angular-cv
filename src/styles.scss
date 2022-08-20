@@ -48,6 +48,7 @@ a {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  transition: 0.5s;
 
   &:hover {
     cursor: pointer;
