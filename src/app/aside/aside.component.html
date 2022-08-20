@@ -5,7 +5,8 @@
       <ul *ngFor="let item of contactsList" class="aside__list-contacts">
         <li class="list-item_contact">
           <span *ngIf="!item.link"><i class={{item.icon}}></i> {{item.contact}}</span>
-          <span *ngIf="item.link"> <a href={{item.link}}><i class={{item.icon}}></i> {{item.contact}}</a></span>
+          <span *ngIf="item.link"> <a href={{item.link}} target="_blank"><i class={{item.icon}}></i>
+              {{item.contact}}</a></span>
           &nbsp;<i class={{item.iconTelegram}}></i>
           &nbsp;<i class={{item.iconViber}}></i>
         </li>

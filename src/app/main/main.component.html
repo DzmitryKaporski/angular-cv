@@ -6,7 +6,7 @@
       <ul *ngFor="let item of educationList" class="courses-list">
         <li class="text">
           <div class="time">{{item.year}}</div>
-          <a *ngIf="item.link" href={{item.link}} title="link">
+          <a *ngIf="item.link" href={{item.link}} target="_blank" title="link">
             <span class="link"><i>{{item.name}}</i></span>
           </a>
           <span *ngIf="!item.link"><i>{{item.name}}</i></span>
@@ -20,7 +20,7 @@
       <ul *ngFor="let course of coursesList" class="courses-list">
         <li class="text">
           <div class="time">{{course.year}}</div>
-          <a *ngIf="course.link" href={{course.link}} title="link">
+          <a *ngIf="course.link" href={{course.link}} target="_blank" title="link">
             <span class="link"><i>{{course.name}}</i></span>
           </a>
           <span *ngIf="!course.link"><i>{{course.name}}</i></span>
@@ -42,7 +42,7 @@
       </div>
       <ul *ngFor="let link of linksList" class="portfolio__list">
         <li>
-          <a href={{link.href}} title="follow the link">
+          <a href={{link.href}} target="_blank" title="follow the link">
             <div class="inner-wrap">
               <span class="link-title">{{link.title}}</span>
               <img class="list-item" src={{link.src}} alt="img" />
