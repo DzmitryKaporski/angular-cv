@@ -40,6 +40,8 @@
   padding: 10px 40px 0 40px;
 
   .list-item_contact {
+    display: flex;
+    align-items: center;
     font-size: 20px;
     font-weight: bold;
 
@@ -60,17 +62,12 @@
 .aside__list-skills {
   list-style-type: none;
   padding: 0 50px 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .list-item__skill {
   margin: 25px 0 25px 0;
-
-  .fa-git,
-  .fa-react,
-  .fa-node-js {
-    font-weight: bold;
-    font-size: 20px;
-  }
 }
 
 .list-item__skill-title {
@@ -82,31 +79,6 @@
       font-size: 17px;
     }
   }
-}
-
-.fa-viber,
-.fa-react {
-  color: purple;
-}
-
-.fa-telegram,
-.fa-css3-alt,
-.fa-cube {
-  color: rgb(104, 104, 178);
-}
-
-.fa-angular,
-.fa-html5 {
-  color: red
-}
-
-.fa-node-js {
-  color: rgb(204, 204, 78);
-}
-
-.fa-node,
-.fa-exchange-alt {
-  color: green;
 }
 
 .aside__language {

@@ -1,5 +1,4 @@
 export interface Skills {
-  icon?: string,
   name: string,
   value: string | number,
 }

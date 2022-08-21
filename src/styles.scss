@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 html {
-  background-image: url(./assets/img/background.jpg);
+  background-image: url(./assets/img/background.avif);
   background-size: cover;
 
   @media (max-width: 888px) {
@@ -21,11 +21,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  background-color: #0e0d0d;
-  color: transparent;
-  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.756);
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: grey;
 
   @media (max-width: 470px) {
     & {
@@ -44,15 +40,12 @@ h2 {
 
 a {
   text-decoration: none;
-  background-color: #25257d;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: #7979d1;
   transition: 0.5s;
 
   &:hover {
     cursor: pointer;
-    background-color: #25257d;
+    color: #25257d;
     text-shadow: 0px 2px 3px rgba(108, 101, 181, 0.756);
   }
 }

@@ -1,14 +1,17 @@
 <aside class="wrap-aside">
   <div class="aside__headline">
+
     <section>
       <h2>CONTACTS</h2>
       <ul *ngFor="let item of contactsList" class="aside__list-contacts">
         <li class="list-item_contact">
-          <span *ngIf="!item.link"><i class={{item.icon}}></i> {{item.contact}}</span>
-          <span *ngIf="item.link"> <a href={{item.link}} target="_blank"><i class={{item.icon}}></i>
-              {{item.contact}}</a></span>
-          &nbsp;<i class={{item.iconTelegram}}></i>
-          &nbsp;<i class={{item.iconViber}}></i>
+          <span class="list-item_contact" *ngIf="!item.link">
+            <img src={{item.icon}} alt="">&nbsp; {{item.contact}}</span>
+          <span *ngIf="item.link">
+            <a class="list-item_contact" href={{item.link}} target="_blank">
+              <img src={{item.icon}} alt="">&nbsp; {{item.contact}}
+            </a></span>
+          &nbsp;<img src={{item.iconTelegram}} alt="">&nbsp;<img src={{item.iconViber}} alt="">
         </li>
       </ul>
     </section>
@@ -17,7 +20,7 @@
       <h2>SKILLS</h2>
       <ul class="aside__list-skills">
         <li *ngFor="let skill of skillsList" class="list-item__skill">
-          <span class="list-item__skill-title"><i class={{skill.icon}}></i> {{skill.name}}</span>
+          <span> {{skill.name}}</span>
           <div class="gradient-progressbar">
             <progress class="progress" value={{skill.value}} max="10"></progress>
           </div>
