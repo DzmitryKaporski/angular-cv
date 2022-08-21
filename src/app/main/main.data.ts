@@ -14,8 +14,8 @@ export const EDUCATION: Education[] = [
 ]
 
 export const LINKS: Links[] = [
-  { title: "Website", href: "https://dzmitrykaporski.github.io/website-tamplate/", src: "assets/img/1.avif" },
-  { title: "Angular CRUD", href: "https://dk-angular-crud.surge.sh/", src: "assets/img/2.avif" },
+  { title: "Template website", href: "https://dzmitrykaporski.github.io/website-tamplate/", src: "assets/img/1.avif" },
   { title: "English for children", href: "https://dzmitrykaporski-jsfe2021q1-english-for-kids.surge.sh/", src: "assets/img/3.avif" },
-  { title: "Angular application", href: "https://final-project_angular13.surge.sh/", src: "assets/img/4.avif" },
+  { title: "Angular movie app", href: "https://final-project_angular13.surge.sh/", src: "assets/img/4.avif" },
+  { title: "Angular CRUD", href: "https://dk-angular-crud.surge.sh/", src: "assets/img/2.avif" },
 ]
