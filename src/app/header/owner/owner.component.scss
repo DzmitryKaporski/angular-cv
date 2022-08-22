@@ -4,11 +4,74 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  position: relative;
+
+  .absolute {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    font-size: 4rem;
+    animation: welcome forwards;
+    animation-duration: 7s;
+
+    @keyframes welcome {
+      0% {
+        opacity: 1;
+      }
+
+      30% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+        margin-top: -250px;
+      }
+    }
+
+    @media (max-width: 888px) {
+      & {
+        display: none;
+      }
+    }
+
+    .hello {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+      color: rgba(128, 0, 128, 0.571);
+    }
+  }
 }
 
 h1 {
+  position: relative;
+  animation: title forwards;
+  animation-duration: 4s;
+
+  @keyframes title {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
   @media (max-width: 888px) {
     & {
+      @keyframes title {
+        100% {
+          opacity: 1;
+        }
+      }
+
       font-size: 23px;
     }
   }
@@ -18,5 +81,49 @@ h1 {
       font-size: 18px;
       margin: 0 40px 10px 40px;
     }
+  }
+}
+
+.wrap-bubble-r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -50px 330px 0 0;
+  position: absolute;
+
+  .bubble-up {
+    width: 62px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: rgba(251, 251, 22, 0.448);
+  }
+
+  .bubble-down {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: rgba(251, 251, 22, 0.448);
+  }
+}
+
+.wrap-bubble-l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -35px 0 0 325px;
+  position: absolute;
+
+  .bubble-up {
+    width: 62px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: rgba(255, 166, 0, 0.584);
+  }
+
+  .bubble-down {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: rgba(255, 166, 0, 0.584);
   }
 }
