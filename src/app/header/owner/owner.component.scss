@@ -19,7 +19,8 @@
         opacity: 1;
       }
 
-      30% {
+      15% {
+        margin-top: 0;
         opacity: 1;
       }
 
@@ -95,14 +96,16 @@ h1 {
     width: 62px;
     height: 64px;
     border-radius: 50px;
-    background-color: rgba(251, 251, 22, 0.448);
+    background: url(/assets/img/bubble-purple.avif);
+    background-size: cover;
   }
 
   .bubble-down {
     width: 10px;
     height: 10px;
     border-radius: 50px;
-    background-color: rgba(251, 251, 22, 0.448);
+    background: url(/assets/img/bubble-purple.avif);
+    background-size: cover;
   }
 }
 
@@ -117,13 +120,15 @@ h1 {
     width: 62px;
     height: 64px;
     border-radius: 50px;
-    background-color: rgba(255, 166, 0, 0.584);
+    background: url(/assets/img/bubble-blue.avif);
+    background-size: cover;
   }
 
   .bubble-down {
     width: 10px;
     height: 10px;
     border-radius: 50px;
-    background-color: rgba(255, 166, 0, 0.584);
+    background: url(/assets/img/bubble-blue.avif);
+    background-size: cover;
   }
 }
