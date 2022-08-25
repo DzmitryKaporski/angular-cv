@@ -85,49 +85,44 @@ h1 {
   }
 }
 
-.wrap-bubble-r {
+.bubble-up-position {
+  width: 62px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.612);
+  border-radius: 50px;
+}
+
+.bubble-down-position {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+}
+
+.wrap-bubble-right {
+  margin: -50px 330px 0 0;
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: -50px 330px 0 0;
-  position: absolute;
 
-  .bubble-up {
-    width: 62px;
-    height: 64px;
-    border-radius: 50px;
-    background: url(/assets/img/bubble-purple.avif);
-    background-size: cover;
-  }
-
-  .bubble-down {
-    width: 10px;
-    height: 10px;
-    border-radius: 50px;
+  .bubble-background {
     background: url(/assets/img/bubble-purple.avif);
     background-size: cover;
   }
 }
 
-.wrap-bubble-l {
+.wrap-bubble-left {
+  margin: -35px 0 0 325px;
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: -35px 0 0 325px;
-  position: absolute;
 
-  .bubble-up {
-    width: 62px;
-    height: 64px;
-    border-radius: 50px;
-    background: url(/assets/img/bubble-blue.avif);
-    background-size: cover;
-  }
-
-  .bubble-down {
-    width: 10px;
-    height: 10px;
-    border-radius: 50px;
+  .bubble-background {
     background: url(/assets/img/bubble-blue.avif);
     background-size: cover;
   }
