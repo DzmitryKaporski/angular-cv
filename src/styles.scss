@@ -3,6 +3,7 @@ html {
   position: relative;
   background-image: url(./assets/img/background.avif);
   background-size: cover;
+  background-attachment: fixed;
   animation: page forwards;
   animation-duration: 2s;
 
@@ -13,12 +14,6 @@ html {
 
     to {
       opacity: 1;
-    }
-  }
-
-  @media (max-width: 888px) {
-    & {
-      background: white;
     }
   }
 
