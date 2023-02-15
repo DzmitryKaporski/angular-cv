@@ -25,5 +25,16 @@
         </li>
       </ul>
     </section>
+    <section>
+      <h2>Languages</h2>
+      <ul class="aside__list-skills">
+        <li *ngFor="let language of languageList" class="list-item__skill">
+          <span> {{language.name}}</span>
+          <div class="gradient-progressbar">
+            <progress class="progress" value={{language.value}} max="10"></progress>
+          </div>
+        </li>
+      </ul>
+    </section>
   </div>
 </aside>

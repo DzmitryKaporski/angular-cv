@@ -1,4 +1,4 @@
-import { Skills, Contacts } from './aside.interface';
+import { Skills, Contacts, Languages } from './aside.interface';
 
 export const CONTACTS: Contacts[] = [
   {
@@ -40,5 +40,8 @@ export const SKILLS: Skills[] = [
   { name: "Webpack", value: 3 },
   { name: "Figma", value: 7 },
   { name: "Git", value: 7 },
+]
+
+export const LANGUAGES: Languages[] = [
   { name: "English: pre-intermediate", value: 4 },
 ]

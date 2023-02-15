@@ -19,13 +19,8 @@
 
   @media (max-width: 1200px) {
     & {
-      height: 114.5rem;
-    }
-  }
-
-  @media (max-width: 888px) {
-    & {
       height: auto;
+      padding-bottom: 10px;
     }
   }
 
@@ -62,7 +57,7 @@
 
 .aside__list-skills {
   list-style-type: none;
-  padding: 0 50px 10px 50px;
+  padding: 0 50px 0 50px;
   font-size: 20px;
   font-weight: bold;
 }

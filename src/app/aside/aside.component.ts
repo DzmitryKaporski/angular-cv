@@ -1,6 +1,7 @@
-import { SKILLS, CONTACTS } from './aside.data';
-import { Skills, Contacts } from './aside.interface';
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+
+import { SKILLS, CONTACTS, LANGUAGES } from './aside.data';
+import { Skills, Contacts, Languages } from './aside.interface';
 
 @Component({
   selector: 'app-aside',
@@ -12,6 +13,7 @@ export class AsideComponent implements OnInit {
 
   skillsList: Skills[] = SKILLS;
   contactsList: Contacts[] = CONTACTS;
+  languageList: Languages[] = LANGUAGES;
 
   constructor() { }
 
