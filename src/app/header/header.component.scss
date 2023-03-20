@@ -4,7 +4,8 @@
   justify-content: space-evenly;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.47);
+  box-shadow: 0 20px 10px #d9d9e9;
+  background: linear-gradient(rgba(28, 142, 235, 0), 50%, rgba(255, 255, 255, 0.79));
 
   @media (max-width: 1200px) {
     & {

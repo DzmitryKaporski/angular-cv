@@ -2,7 +2,7 @@
   <div class="footer-date">{{date|date: 'd MMMM y'}}</div>
   <div class="footer-logos">
     <ul *ngFor="let logo of logosList">
-      <li>
+      <li class="footer-link">
         <a href={{logo.url}} target="_blank"> <img class={{logo.class}} src={{logo.src}} alt={{logo.alt}}> </a>
       </li>
     </ul>

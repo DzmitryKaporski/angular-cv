@@ -3,8 +3,9 @@
   justify-content: space-around;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.47);
+  box-shadow: 0 20px 10px #c9c9e5;
   color: rgba(0, 0, 0, 0.607);
+  background: linear-gradient(rgba(28, 142, 235, 0), 50%, rgba(255, 255, 255, 0.79));
 
   @media (max-width: 1200px) {
     & {
@@ -63,6 +64,14 @@
     & {
       width: 100%;
     }
+  }
+}
+
+.footer-link {
+  transition: 0.5s;
+
+  &:hover {
+    scale: 1.1;
   }
 }
 

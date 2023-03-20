@@ -5,31 +5,14 @@
   .photo {
     width: 140px;
     height: 150px;
-    box-shadow: 0 20px 10px rgba(135, 122, 122, 0.469);
+    box-shadow: 0 10px 10px #d9d9e9;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
-  }
-}
+    transition: 0.5s;
 
-.photo-zoom-wrap {
-  margin-top: 15px;
-  position: absolute;
-  width: 151px;
-  height: 163px;
-  opacity: 0;
-  transition: all 0.3s ease-out;
-
-  &:hover {
-    opacity: 1;
-    transform: scale(1.1);
-    cursor: none;
-  }
-
-  .photo-zoom {
-    width: 151px;
-    height: 163px;
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
-    box-shadow: 0 20px 10px rgba(135, 122, 122, 0.469);
+    &:hover {
+      cursor: none;
+      scale: 1.1;
+    }
   }
 }
