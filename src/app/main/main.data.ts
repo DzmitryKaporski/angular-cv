@@ -1,9 +1,4 @@
-import { Education, Links } from './main.interface';
-
-export const EDUCATION: Education[] = [
-  { year: "1999 - 2002", name: "Mogilev State Polytechnic College" },
-  { year: "2007 - 2011", link: "assets/documents/mesi.jpg", name: "Moscow State University of Economics, Statistics and Informatics" },
-]
+import { Links } from './main.interface';
 
 export const LINKS: Links[] = [
   { title: "Template website", href: "https://dzmitrykaporski.github.io/website-tamplate/", src: "assets/img/1.jpg" },
