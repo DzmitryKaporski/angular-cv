@@ -1,28 +1,24 @@
 <main class="main">
   <article>
     <section class="education">
-      <h2 class="title"> EDUCATION </h2>
+      <h2 class="title">
+        <img class="education-icon" src="/assets/img/education.png" alt="">
+        EDUCATION
+      </h2>
       <ul *ngFor="let item of educationList" class="courses-list">
         <li class="text">
           <div class="time">{{item.year}}</div>
-          <a *ngIf="item.link" href={{item.link}} target="_blank">
-            <span class="link"><i>{{item.name}}</i></span>
-          </a>
+          <span class="link"><i>{{item.name}}</i></span>
           <span *ngIf="!item.link"><i>{{item.name}}</i></span>
         </li>
       </ul>
     </section>
     <section class="courses">
-      <h2 class="title"> COURSES </h2>
-      <ul *ngFor="let course of coursesList" class="courses-list">
-        <li class="text">
-          <div class="time">{{course.year}}</div>
-          <a *ngIf="course.link" href={{course.link}} target="_blank">
-            <span class="link"><i>{{course.name}}</i></span>
-          </a>
-          <span *ngIf="!course.link"><i>{{course.name}}</i></span>
-        </li>
-      </ul>
+      <h2 class="title">
+        <img class="education-icon" src="/assets/img/curses.png" alt="">
+        COURSES
+      </h2>
+      <app-timeline></app-timeline>
     </section>
     <section class="portfolio">
       <div>
@@ -31,13 +27,13 @@
       <div class="subtitle">
         <i>Have an experience in building simple web applications. To
           watch code examples feel free to visit my:</i>
-        <a href="https://github.com/DzmitryKaporski">
+        <a href="https://github.com/DzmitryKaporski" aria-label="link to github">
           <span class="link-github"><i> GitHub</i></span>
         </a>
       </div>
       <ul *ngFor="let link of linksList" class="portfolio__list">
         <li>
-          <a href={{link.href}} target="_blank">
+          <a href={{link.href}} aria-label="link to project" target="_blank">
             <div class="inner-wrap">
               <span class="link-title">{{link.title}}</span>
               <img class="list-item" src={{link.src}} alt="img" />
@@ -51,14 +47,14 @@
       <div class="text">
         <p>
           <i>
+            I feel a passion for the world of IT technologies and
+            would like to connect my future with it activities to
+            create values for the people in the IT.
+            <br />
             Web page development on HTML5 markup language using
             cascading CSS stylesheets. Development of client-side
             scripting with JavaScript using frameworks React and
             Angular.
-            <br />
-            I feel a passion for the world of IT technologies and
-            would like to connect my future with it activities to
-            create values for the people in the IT.
           </i>
         </p>
       </div>

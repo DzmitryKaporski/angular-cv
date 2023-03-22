@@ -3,6 +3,10 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  border-bottom-right-radius: 120px;
+  border-top-left-radius: 120px;
+  color: purple;
+  box-shadow: 0 0 10px 0 rgba(22, 118, 197, 0.879);
 }
 
 .wrap-content {
@@ -11,15 +15,11 @@
   padding: 0 2rem 0 0;
 
   @media (max-width: 888px) {
-    & {
-      flex-direction: column;
-      padding: 0;
-    }
+    flex-direction: column;
+    padding: 0;
   }
 
   @media (max-width: 470px) {
-    & {
-      width: 350px;
-    }
+    width: 350px;
   }
 }

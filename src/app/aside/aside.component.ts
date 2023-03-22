@@ -10,7 +10,6 @@ import { Skills, Contacts, Languages } from './aside.interface';
   styleUrls: ['./aside.component.scss']
 })
 export class AsideComponent implements OnInit {
-
   skillsList: Skills[] = SKILLS;
   contactsList: Contacts[] = CONTACTS;
   languageList: Languages[] = LANGUAGES;

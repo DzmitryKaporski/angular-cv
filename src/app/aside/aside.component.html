@@ -5,10 +5,10 @@
       <ul *ngFor="let item of contactsList" class="aside__list-contacts">
         <li class="list-item_contact">
           <span class="list-item_contact" *ngIf="!item.link">
-            <img src={{item.icon}} alt="">&nbsp; {{item.contact}}</span>
+            <img src={{item.icon}} alt="icon">&nbsp; {{item.contact}}</span>
           <span *ngIf="item.link">
-            <a class="list-item_contact" href={{item.link}} target="_blank">
-              <img src={{item.icon}} alt="">&nbsp; {{item.contact}}
+            <a class="list-item_contact" href={{item.link}} aria-label="link to social network" target="_blank">
+              <img src={{item.icon}} alt="icon">&nbsp; {{item.contact}}
             </a></span>
           &nbsp;<img src={{item.iconTelegram}} alt="">&nbsp;<img src={{item.iconViber}} alt="">
         </li>
@@ -18,7 +18,7 @@
       <h2>SKILLS</h2>
       <ul class="aside__list-skills">
         <li *ngFor="let skill of skillsList" class="list-item__skill">
-          <span> {{skill.name}}</span>
+          <img class="aside__icon" src={{skill.icon}} alt="icon"> <span> {{skill.name}}</span>
           <div class="gradient-progressbar">
             <progress class="progress" value={{skill.value}} max="10"></progress>
           </div>
@@ -26,9 +26,10 @@
       </ul>
     </section>
     <section>
-      <h2>Languages</h2>
+      <h2>LANGUAGES</h2>
       <ul class="aside__list-skills">
         <li *ngFor="let language of languageList" class="list-item__skill">
+          <img class="aside__icon-english" src={{language.icon}} alt="icon">
           <span> {{language.name}}</span>
           <div class="gradient-progressbar">
             <progress class="progress" value={{language.value}} max="10"></progress>

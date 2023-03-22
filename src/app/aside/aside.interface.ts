@@ -9,9 +9,11 @@ export interface Contacts {
 export interface Skills {
   name: string,
   value: string | number,
+  icon: string,
 }
 
 export interface Languages {
   name: string,
   value: string | number,
+  icon: string,
 }

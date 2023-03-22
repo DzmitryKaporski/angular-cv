@@ -28,20 +28,19 @@ export const CONTACTS: Contacts[] = [
 ]
 
 export const SKILLS: Skills[] = [
-  { name: "HTML5", value: 7 },
-  { name: "CSS3", value: 7 },
-  { name: "JavaScript", value: 7 },
-  { name: "React", value: 4 },
-  { name: "Angular", value: 5 },
-  { name: "Firebase", value: 5 },
-  { name: "Node.js", value: 6 },
-  { name: "Reveal.js", value: 5 },
-  { name: "TypeScript", value: 6 },
-  { name: "Webpack", value: 3 },
-  { name: "Figma", value: 7 },
-  { name: "Git", value: 7 },
+  { name: "HTML5", value: 7, icon: "/assets/svg/html5.svg" },
+  { name: "CSS3", value: 7, icon: "/assets/svg/css3.svg" },
+  { name: "JavaScript", value: 7, icon: "/assets/svg/js.svg" },
+  { name: "React", value: 4, icon: "/assets/svg/react.svg" },
+  { name: "Angular", value: 5, icon: "/assets/svg/angular.svg" },
+  { name: "Firebase", value: 5, icon: "/assets/svg/firebase.svg" },
+  { name: "Node.js", value: 6, icon: "/assets/svg/nodejs.svg" },
+  { name: "TypeScript", value: 6, icon: "/assets/svg/typescript.svg" },
+  { name: "Webpack", value: 3, icon: "/assets/svg/webpack.svg" },
+  { name: "Figma", value: 7, icon: "/assets/svg/figma.svg" },
+  { name: "Git", value: 7, icon: "/assets/svg/git.svg" },
 ]
 
 export const LANGUAGES: Languages[] = [
-  { name: "English: pre-intermediate", value: 4 },
+  { name: "English: pre-intermediate", value: 4, icon: "/assets/img/english.png" },
 ]

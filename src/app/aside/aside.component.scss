@@ -1,33 +1,27 @@
 .wrap-aside {
   width: 410px;
-  padding: 0 2rem 0 0;
+  padding: 0.1rem 2rem 0 0;
+  background: linear-gradient(90deg, rgba(104, 171, 225, 0.578) 0%, rgba(255, 255, 255, 0) 68%);
 
   @media (max-width: 470px) {
-    & {
-      width: 300px;
-    }
+    width: 300px;
   }
 }
 
 .aside__headline {
   width: 106%;
-  height: 85.8rem;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0 20px 10px #c9c9e5;
-  background: linear-gradient(rgba(28, 142, 235, 0), 50%, rgba(22, 53, 206, 0.342));
+  height: 105rem;
 
   @media (max-width: 1200px) {
-    & {
-      height: auto;
-      padding-bottom: 10px;
-    }
+    height: 142rem;
+  }
+
+  @media (max-width: 888px) {
+    height: 90rem;
   }
 
   @media (max-width: 470px) {
-    & {
-      width: 350px;
-    }
+    width: 350px;
   }
 }
 
@@ -42,16 +36,12 @@
     font-weight: bold;
 
     @media (max-width: 470px) {
-      & {
-        font-size: 15px;
-      }
+      font-size: 15px;
     }
   }
 
   @media (max-width: 470px) {
-    & {
-      padding: 0 20px 0 50px;
-    }
+    padding: 0 20px 0 50px;
   }
 }
 
@@ -71,9 +61,7 @@
   font-size: 20px;
 
   @media (max-width: 470px) {
-    & {
-      font-size: 17px;
-    }
+    font-size: 17px;
   }
 }
 
@@ -109,6 +97,11 @@
   border-radius: 9px;
 }
 
+.gradient-progressbar {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(141, 188, 227, 0.879);
+}
+
 .list-item {
   width: 130px;
   height: 110px;
@@ -124,4 +117,12 @@
 .img {
   width: 20px;
   height: 20px;
+}
+
+.aside__icon {
+  margin-bottom: -5px;
+}
+
+.aside__icon-english {
+  width: 20px;
 }

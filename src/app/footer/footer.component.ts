@@ -1,6 +1,7 @@
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+
 import { LOGOS } from './footer.data';
 import { Logos } from './footer.interface';
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -9,7 +10,6 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-
   date = new Date();
   logosList: Logos[] = LOGOS;
 

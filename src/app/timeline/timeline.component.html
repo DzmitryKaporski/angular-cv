@@ -1,0 +1,23 @@
+<div class="card">
+  <p-timeline [value]="timelineList" align="alternate" styleClass="customized-timeline">
+    <ng-template pTemplate="marker" let-event>
+      <span class="custom-marker p-shadow-2" [style.backgroundColor]="event.color">
+        <img class="card-logo" src={{event.logo}} alt="image logo">
+      </span>
+    </ng-template>
+    <ng-template pTemplate="content" let-event>
+      <div class="card-body">
+        <div class="text-end">
+          <h3 class="card-title">{{event.organization}}</h3>
+        </div>
+        <div class="card-date">{{event.date}}</div>
+        <div class="flex">
+          <a href={{event.link}} aria-label="link to certificate" target="_blank">
+            <img [src]="event.certificate" [alt]="event.name" class="card-certificate" />
+          </a>
+          <p class="text">{{event.content}}</p>
+        </div>
+      </div>
+    </ng-template>
+  </p-timeline>
+</div>

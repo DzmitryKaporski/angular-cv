@@ -1,32 +1,24 @@
 .footer {
   display: flex;
   justify-content: space-around;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0 20px 10px #c9c9e5;
-  color: rgba(0, 0, 0, 0.607);
-  background: linear-gradient(rgba(28, 142, 235, 0), 50%, rgba(255, 255, 255, 0.79));
+  border-bottom-right-radius: 120px;
+  background: linear-gradient(90deg, rgba(104, 171, 225, 0.578) 0%, rgba(255, 255, 255, 0) 22%);
 
   @media (max-width: 1200px) {
-    & {
-      width: 98%;
-    }
+    width: 98%;
   }
 
   @media (max-width: 888px) {
-    & {
-      padding-top: 60px;
-      width: 435px;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+    padding-top: 60px;
+    width: 435px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(141, 188, 227, 0.879) 0%, rgba(255, 255, 255, 0) 40%);
   }
 
   @media (max-width: 470px) {
-    & {
-      width: 350px;
-    }
+    width: 350px;
   }
 }
 
@@ -38,10 +30,8 @@
   font-weight: bold;
 
   @media (max-width: 888px) {
-    & {
-      margin-bottom: 20px;
-      font-size: 20px;
-    }
+    margin-bottom: 20px;
+    font-size: 20px;
   }
 }
 
@@ -59,11 +49,11 @@
 .footer-logos {
   display: flex;
   justify-content: space-around;
+  width: 40%;
 
   @media (max-width: 888px) {
-    & {
-      width: 100%;
-    }
+    width: 80%;
+    justify-content: space-evenly;
   }
 }
 
@@ -78,36 +68,11 @@
 ul {
   padding: 0;
   list-style-type: none;
+}
 
-  .svg_100x100 {
-    padding: 20px 50px 20px 40px;
-    width: 100px;
-    height: 100px;
-    opacity: 0.7;
-    transition: 0.5s;
-
-    &:hover {
-      cursor: pointer;
-      opacity: 1;
-    }
-
-    @media (max-width: 888px) {
-      & {
-        padding: 20px 10px 20px 0;
-      }
-    }
-  }
-
-  .svg_80x80 {
-    padding: 30px 0 30px 0;
-    width: 80px;
-    height: 80px;
-    opacity: 0.7;
-    transition: 0.5s;
-
-    &:hover {
-      cursor: pointer;
-      opacity: 1;
-    }
-  }
+.svg_100x100 {
+  margin-top: -10px;
+  width: 100px;
+  opacity: 0.7;
+  transition: 0.5s;
 }
