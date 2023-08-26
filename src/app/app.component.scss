@@ -6,7 +6,7 @@
   border-bottom-right-radius: 120px;
   border-top-left-radius: 120px;
   color: purple;
-  box-shadow: 0 0 10px 0 rgba(22, 118, 197, 0.879);
+  box-shadow: 0 0 10px 0 white;
 }
 
 .wrap-content {
@@ -17,6 +17,7 @@
   @media (max-width: 888px) {
     flex-direction: column;
     padding: 0;
+    background-color: white;
   }
 
   @media (max-width: 470px) {

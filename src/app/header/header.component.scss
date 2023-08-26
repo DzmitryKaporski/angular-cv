@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-evenly;
   border-top-left-radius: 120px;
-  background: linear-gradient(90deg, rgba(104, 171, 225, 0.578) 0%, rgba(255, 255, 255, 0) 22%);
+  background: linear-gradient(90deg, white 25%, rgba(255, 255, 255, 0) 35%);
 
   @media (max-width: 1200px) {
     width: 98%;
@@ -15,7 +15,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(141, 188, 227, 0.879) 0%, rgba(255, 255, 255, 0) 40%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 35%);
+    background-color: white;
   }
 
   @media (max-width: 470px) {

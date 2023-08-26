@@ -1,7 +1,7 @@
 .wrap-aside {
   width: 410px;
   padding: 0.1rem 2rem 0 0;
-  background: linear-gradient(90deg, rgba(104, 171, 225, 0.578) 0%, rgba(255, 255, 255, 0) 68%);
+  background: linear-gradient(90deg, white 75%, rgba(255, 255, 255, 0) 100%);
 
   @media (max-width: 470px) {
     width: 300px;
@@ -86,14 +86,14 @@
 .gradient-progressbar progress::-webkit-progress-value {
   background: linear-gradient(to bottom,
       rgb(197, 197, 197) 0%,
-      rgba(220, 220, 220, 0.951) 100%);
+      rgba(108, 108, 233, 0.768) 100%);
   border-radius: 9px;
 }
 
 .gradient-progressbar progress::-moz-progress-bar {
   background: linear-gradient(to bottom,
       rgb(197, 197, 197) 0%,
-      rgba(220, 220, 220, 0.951) 100%);
+      rgba(108, 108, 233, 0.768) 100%);
   border-radius: 9px;
 }
 
