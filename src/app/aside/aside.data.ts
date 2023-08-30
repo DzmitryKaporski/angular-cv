@@ -18,7 +18,7 @@ export const CONTACTS: Contacts[] = [
   },
   {
     icon: "/assets/svg/skype.svg",
-    contact: "live:.cid.d6899aaa40ee068d"
+    contact: "live:.cid.9678fc6297577916"
   },
   {
     icon: "/assets/svg/github.svg",
