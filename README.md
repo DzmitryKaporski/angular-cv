@@ -1,6 +1,6 @@
 # Deploy: [angular-cv](https://sv-dmitry.kaporski.surge.sh)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2
 
 ## Development server
 
