@@ -3,7 +3,7 @@ import { Skills, Contacts, Languages } from './aside.interface';
 export const CONTACTS: Contacts[] = [
   {
     icon: "/assets/svg/phone.svg",
-    contact: "+375(29)8455778",
+    contact: "+375(29)7403101",
     iconTelegram: "/assets/svg/telegram.svg",
     iconViber: "/assets/svg/viber.svg"
   },
